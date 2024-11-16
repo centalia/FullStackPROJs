@@ -4,6 +4,5 @@ This repository contains front-end projects built following the [roadmap.sh](htt
 
 ## My Projects List
 <p align="left">
-  <a href='/Curriculum%20Vitae'>
-  </a>
+  <a href='/Curriculum%20Vitae'>Curriculum Vitae</a>
 </p>
