@@ -2,7 +2,7 @@
 
 This repository contains front-end projects built following the [roadmap.sh](https://roadmap.sh/) front-end developer path.
 
-## My Projects List
+##Projects List
 <p align="left">
-  <a href='/Curriculum%20Vitae'>Curriculum Vitae</a>
+  <a href='https://roadmap.sh/projects/single-page-cv'>Curriculum Vitae</a>
 </p>
