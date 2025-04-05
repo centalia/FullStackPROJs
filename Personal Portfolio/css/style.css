@@ -1,7 +1,12 @@
-ul{ list-style: none;}
-
-
-nav{
+.head_container{
     display: flex;
-    
+    flex-flow: row nowrap;
+
+}
+.menu{ 
+    list-style-type: none;
+    display: flex;
+    /* justify-content: flex-end; */
+    /* flex-direction: row; */
+    gap: 10px;
 }
