@@ -4,29 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Article's</title>
+    <!-- Link -->
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <header>
-        <div class="logo">
-            <p>GovnoWebSite by Centalia</p>
+        <div class="head">    
+            <div class="logo">
+                <p>GovnoWebSite by Centalia</p>
+            </div>
+            <nav>
+                <ul class="menu">
+                    <li><a href="/Personal Portfolio/index.html">Home</a></li>
+                    <li><a href="/Personal Portfolio/projects.html">Projects</a></li>
+                    <li><a href="/Personal Portfolio/articles.html">Articles</a></li>
+                    <li><a href="/Personal Portfolio/contact.html">Contact</a></li>
+                </ul>
+            </nav>
         </div>
-        <nav>
-            <ul>
-                <li><a href="/Personal Portfolio/index.html">Home</a></li>
-                <li><a href="/Personal Portfolio/projects.html">Projects</a></li>
-                <li><a href="/Personal Portfolio/articles.html">Articles</a></li>
-                <li><a href="/Personal Portfolio/contact.html">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+        <section class="intro">
+                <h1>Beginners Front-end Developer</h1>
+                <p>Пишет всякую хуйню</p>
+            </section>
+        </header>
     <main>
-        <section class="article">
-            <h1>Article's</h1>
-            <ul>
-                <li><h2><a href="https://www.w3schools.com/html/html5_semantic_elements.asp">Semantic HTML</a></h2></li>
-                <p>Semantic elements = elements with a meaning.</p>
-            </ul>
-        </section>
+        <div class="main">
+            <section class="article">
+                <h1 id="title_section">Article's</h1>
+                <ul id="article">
+                    <li id="title_article"><h2 id="title-article"><a href="https://www.w3schools.com/html/html5_semantic_elements.asp">Semantic HTML</a></h2></li>
+                    <p id="desc_article">Semantic elements = elements with a meaning.</p>
+                </ul>
+            </section>
+        </div>
     </main>
     <footer>
         <p>all rights reserved, 2025 </p>
