@@ -14,7 +14,6 @@
 
     #li_projects{
         border-bottom: 1px solid black;
-        text-align: center;
         padding: 10px;
         margin: 0;
         background-color: rgb(201, 199, 199);
@@ -29,7 +28,7 @@
 
     #desc_experience{
         font-size: large;
-        padding-left: 10px;
+        padding: 10px;
         background-color: rgb(201, 199, 199);
     }
 
@@ -60,7 +59,6 @@
 
     #li_projects{
         border-top: 1px solid black;
-        text-align: center;
         border-bottom: none;
         padding: 10px;
         margin: 0;
@@ -68,16 +66,12 @@
 
     #desc_experience{
         border-bottom: none;
-        padding: 0 1rem 1rem 1rem;
+        padding-left: 1rem;
     }
 
     #title{
         margin: 0;
         padding: 1rem ;
-    }
-
-    #sub_title{
-        margin-top: 0;
     }
 }
 
@@ -165,13 +159,16 @@ h1{
 
 .main{
     display: flex;
-    /* flex-direction: row; */
     flex-wrap: wrap;
 }
 
 .main > *{
     border-bottom: 1px solid black;
     flex: 1 1 auto;
+}
+
+.col_projects{
+    text-align: center;
 }
 
 .col_projects p{
