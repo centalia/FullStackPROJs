@@ -1,0 +1,108 @@
+body{
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+header{
+    border-bottom: 1px solid black;
+}
+
+.head{
+    display: flex;
+    gap: 1rem;
+    margin: 0 1rem 0 1rem;
+    ;
+}
+
+a{
+    text-decoration: none;
+    color: #AA4203;
+}
+
+a:hover{
+    color: #770b02;
+}
+
+.logo{
+    font-size: 24px;
+    text-align: center;
+}
+
+.intro{
+    text-align: center;
+    font-size: x-large;
+}   
+
+.intro p{
+    font-size: smaller;
+    margin: 0 1rem 1rem 1rem;
+}
+
+h1{
+    margin: 0;
+    text-align: center;
+}
+
+.main{
+    border-bottom: 1px solid black;
+}
+
+.changelog_title{
+    text-align: center;
+}
+
+.changelog_title h1{
+    margin-top: 1rem;
+}
+
+.timeline {
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.timeline_entry{
+    display: flex;
+    gap: 3rem;
+    flex-direction: row;
+}
+
+.timeline::before {
+    content: "";
+    position: absolute;
+    top: 31%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 2px;
+    height: 32%;
+    background-color: black;
+}
+
+.date{
+    color: gray
+}
+
+.date::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 40%);
+    width: 10px;
+    height: 10px;
+    background-color: #333;
+    border-radius: 50%;
+}
+
+.butt{
+    position: relative;
+    left: 42%;
+    margin-bottom: 2rem;
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    background-color: #ce6e01;
+}
+
+footer{
+    text-align: center;
+}
