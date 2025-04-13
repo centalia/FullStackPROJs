@@ -51,32 +51,57 @@ h1{
     text-align: center;
 }
 
+.changelog_title h1{
+    margin-top: 1rem;
+}
+
 .timeline {
     margin-bottom: 2rem;
     display: flex;
     flex-direction: column;
     align-items: center;
-  }
+}
 
 .timeline_entry{
     display: flex;
-    gap: 1rem;
+    gap: 3rem;
     flex-direction: row;
 }
 
 .timeline::before {
     content: "";
     position: absolute;
-    top: 0;
+    top: 31%;
     left: 50%;
     transform: translateX(-50%);
     width: 2px;
-    height: 100%;
+    height: 32%;
     background-color: black;
 }
 
+.date{
+    color: gray
+}
 
+.date::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 40%);
+    width: 10px;
+    height: 10px;
+    background-color: #333;
+    border-radius: 50%;
+}
 
+.butt{
+    position: relative;
+    left: 42%;
+    margin-bottom: 2rem;
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    background-color: #ce6e01;
+}
 
 footer{
     text-align: center;
